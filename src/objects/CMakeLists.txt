@@ -1,0 +1,43 @@
+set(PATH_H
+        inc/objects/)
+set(PATH_S
+        src/objects/)
+
+set(SOURCES
+        ${PATH_S}Picture.cpp
+        ${PATH_S}Button.cpp
+        ${PATH_S}Animation.cpp
+        ${PATH_S}Music.cpp
+        ${PATH_S}Sound.cpp
+        ${PATH_S}Text.cpp
+        ${PATH_S}Form.cpp
+        ${PATH_S}Armature.cpp
+        ${PATH_S}StaticObject.cpp
+        ${PATH_S}Player.cpp
+        ${PATH_S}Bomb.cpp
+        ${PATH_S}Explosion.cpp
+        ${PATH_S}PowerUp.cpp
+        ${PATH_S}Ia.cpp
+        )
+
+set(HEADERS
+        ${PATH_H}Picture.hpp
+        ${PATH_H}Button.hpp
+        ${PATH_H}Animation.hpp
+        ${PATH_H}Music.hpp
+        ${PATH_H}Sound.hpp
+        ${PATH_H}Text.hpp
+        ${PATH_H}Form.hpp
+        ${PATH_H}Armature.hpp
+        ${PATH_H}StaticObject.hpp
+        ${PATH_H}Player.hpp
+        ${PATH_H}Bomb.hpp
+        ${PATH_H}Explosion.hpp
+        ${PATH_H}PowerUp.hpp
+        ${PATH_H}Ia.hpp
+        )
+
+set(OBJECTS_FILES
+        ${SOURCES}
+        ${HEADERS}
+        )
